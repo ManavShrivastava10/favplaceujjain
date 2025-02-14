@@ -1,0 +1,27 @@
+*{
+  margin:0;
+  padding:0;
+}
+
+body{
+  height: 100vh;
+  color: white;
+  background: linear-gradient(185deg, rgb(20, 20, 90) 6%, #100916 35%);
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+button{
+  padding:7px;
+  padding-left:20px;
+  padding-right:20px;
+  background: linear-gradient(to right, #0d1642, #560b8c);
+  border-radius: 30px;
+  color: white;
+  border: 1px solid white;
+}
+
+button:hover{
+  border: 2px solid white;
+  transform: scale(1.02);
+  transition: 0.25s;
+}

@@ -1,12 +1,18 @@
 import React from 'react'
+import Favsec from './Components/Favsec/Favsec';
 import Home from './Components/Home/Home'
+
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
+
 
 const App = () => {
   return (
-    <div>
-      <h1>MY FAVOURITE PLACES</h1>
-      <Home/>
-    </div>
+      <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Home/>} />
+        <Route path="/favsec" element={<Favsec/>} />
+      </Routes>
+    </BrowserRouter>
   );
 }
 
